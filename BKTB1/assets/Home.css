@@ -1,0 +1,35 @@
+.slider{
+
+
+    padding-top: 100px;
+}
+
+.text-title{
+   background-color: #f15f61;
+   color: #fff;
+   font-size: 10px;
+   width: 150px;
+   padding: 5px 20px;
+   border-radius: 5px;
+}
+.truyenthuyet{
+    padding: 0 20px;
+    display: flex;
+}
+.photo{
+    padding: 10px 0;
+    max-width: 350px;
+    height: 400px;
+    margin: 0 15px 0 0;
+
+}
+.anh{
+    max-width: 350px;
+    height: auto;
+}
+.the_p{
+    font-size: 14px;
+}
+.the_h4{
+    padding: 7px 0;
+}

@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  #header {
+   height: 70px ;
+   background-color: rgb(0, 174, 255);
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 1;
+  }
+  
+  #nav {
+    justify-content: space-around;
+    display: flex;
+    
+  }
+  
+   .nav-logo {
+    height: 70px ;
+    padding-left: 30px;
+  }
+  
+  #nav .nav-control li {
+    display: inline-block;
+    padding:0px 24px ;
+    position: relative;
+    line-height: 70px ;
+    
+  }
+  
+  #nav .nav-control li a {
+    text-decoration: none ;
+    /* text-transform: uppercase; */
+   
+  }
+  #nav .nav-control > li>a {
+    text-transform: uppercase;
+  }
+  #header .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  #header .search-bar a {
+    padding: 0 12px ;
+    text-decoration: none;
+  
+  }
+  #nav > li > a {
+    color: #fff;
+  }
+   #nav .nav-control > li:hover  {
+    color: #000000;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  #header .search-bar a:hover {
+    color: #ccc;
+  }
+  #header .search-bar .example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  #header .search-bar .example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #0c0101;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  #header .search-bar .example button:hover {
+    background: #ccc;
+  }
+  
+  #header .search-bar .example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* subnav  */
+  
+  #nav .nav-control li:hover .subnav {
+      display: block;
+  }
+  
+  
+  #nav .subnav {
+      display: none;
+      position: absolute;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      min-width: 200px;
+  }
+  #nav .subnav li {
+      width: 100%;
+  }
+  #nav .subnav a {
+      color: #000000;
+      padding: 0 12px;
+      line-height: 38px;
+  }
+  
+  #nav .subnav li:hover {
+      color: #000000;
+      background-color: #ccc;
+  }
+  
+  /* end sunav  */
+  /* end header  */
+  body {
+    background: #fff;
+    color: 333;
+  }
+  @media all and (max-width: 320px) {
+    body {
+       background: #e7e7e7;
+    }
+  }
+  
